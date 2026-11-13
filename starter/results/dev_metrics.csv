@@ -1,0 +1,4 @@
+﻿strategy,split,questions,exact_quote_hit1_n,exact_quote_hit3_n,exact_quote_hit1_fraction,exact_quote_hit3_fraction,exact_quote_hit1_rate,exact_quote_hit3_rate,filter_compliant_n,filter_questions,filter_compliance_fraction,mean_retrieval_ms,reviewed_hit1_n,reviewed_hit3_n,human_review_status
+A,dev,15,7,10,7/15,10/15,0.4666666666666667,0.6666666666666666,2,3,2/3,27.926295333387923,,,pending
+B,dev,15,8,13,8/15,13/15,0.5333333333333333,0.8666666666666667,1,3,1/3,15.675734999937655,,,pending
+C,dev,15,8,13,8/15,13/15,0.5333333333333333,0.8666666666666667,3,3,3/3,14.715308533322968,,,pending

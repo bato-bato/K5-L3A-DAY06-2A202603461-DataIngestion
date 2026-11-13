@@ -1,0 +1,21 @@
+{
+  "at": "2026-11-13T11:39:48.483222+00:00",
+  "experiment_fingerprint": "eebe2209f7e551f6a6403b4db855ed314f2f9921500da6d8d30f1543023f576f",
+  "python": "3.12.16 (main, Nov  5 2026, 07:58:20) [GCC 14.2.0]",
+  "platform": "Linux-6.18.33.1-microsoft-standard-WSL2-x86_64-with-glibc2.41",
+  "versions": {
+    "torch": "2.6.0+cpu",
+    "sentence-transformers": "3.4.1",
+    "transformers": "4.49.0",
+    "numpy": "2.2.6",
+    "psycopg": "3.3.8",
+    "PyMuPDF": "1.25.5"
+  },
+  "database_reload_seconds": {
+    "A": 0.3520608130002074,
+    "B": 0.1717491039999004
+  },
+  "timing_note": "Database reload only; this is not complete cold-ingestion time. C shares B's stored vectors.",
+  "query_traces": 45,
+  "test_retrieval_executed": false
+}
