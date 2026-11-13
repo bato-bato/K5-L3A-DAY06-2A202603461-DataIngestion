@@ -1,0 +1,17 @@
+services:
+  lab:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    working_dir: /app
+    environment:
+      DATABASE_URL: postgresql://day6:day6_local_only@postgres:5432/day6_lab
+    volumes:
+      - .:/app
+      - model_cache:/models
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+volumes:
+  model_cache:
