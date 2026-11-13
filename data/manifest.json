@@ -1,0 +1,500 @@
+{
+  "stage": "normalized pages and section metadata",
+  "total_selected_pages": 54,
+  "sources": [
+    {
+      "source_id": "astronomy2e_ch03",
+      "title": "Astronomy 2e — Chapter 3: Orbits and Gravity",
+      "source_path_or_url": "https://www.theexpertta.com/book-files/OpenStaxAstronomy2e/Chapter3_63-94.pdf",
+      "local_path": "data/raw/chapter3.pdf",
+      "official_book_url": "https://openstax.org/details/books/astronomy-2e",
+      "publisher": "OpenStax, Rice University",
+      "edition": "2e",
+      "language": "en",
+      "license_or_permission": "CC BY 4.0 for the matched 2022 PDF snapshot; retain source attribution.",
+      "attribution": "Copyright 2022 Rice University. Access for free at openstax.org.",
+      "downloaded_at": "2026-11-13T09:59:24.066788+00:00",
+      "verified_at": "2026-11-13T09:59:24.212630+00:00",
+      "sha256": "4506336859b6453bb29f31fef02c31edb93654ccdc1e9271621f8b7aeefb2d6c",
+      "physical_pdf_pages": 32,
+      "selected_printed_pages": [
+        64,
+        87
+      ],
+      "selected_page_count": 24,
+      "page_counting_rule": "Count selected printed pages once. Exclude chapter opening pages and end matter.",
+      "character_count_method": "PyMuPDF extracted text with collapsed whitespace; running headers and footers are still included.",
+      "pages": [
+        {
+          "page": 64,
+          "pdf_page": 2,
+          "normalized_character_count": 2150,
+          "sections": [
+            "3.1"
+          ]
+        },
+        {
+          "page": 65,
+          "pdf_page": 3,
+          "normalized_character_count": 3251,
+          "sections": [
+            "3.1"
+          ]
+        },
+        {
+          "page": 66,
+          "pdf_page": 4,
+          "normalized_character_count": 3748,
+          "sections": [
+            "3.1"
+          ]
+        },
+        {
+          "page": 67,
+          "pdf_page": 5,
+          "normalized_character_count": 2684,
+          "sections": [
+            "3.1"
+          ]
+        },
+        {
+          "page": 68,
+          "pdf_page": 6,
+          "normalized_character_count": 2481,
+          "sections": [
+            "3.1"
+          ]
+        },
+        {
+          "page": 69,
+          "pdf_page": 7,
+          "normalized_character_count": 2772,
+          "sections": [
+            "3.1",
+            "3.2"
+          ]
+        },
+        {
+          "page": 70,
+          "pdf_page": 8,
+          "normalized_character_count": 2622,
+          "sections": [
+            "3.2"
+          ]
+        },
+        {
+          "page": 71,
+          "pdf_page": 9,
+          "normalized_character_count": 4522,
+          "sections": [
+            "3.2"
+          ]
+        },
+        {
+          "page": 72,
+          "pdf_page": 10,
+          "normalized_character_count": 2426,
+          "sections": [
+            "3.2"
+          ]
+        },
+        {
+          "page": 73,
+          "pdf_page": 11,
+          "normalized_character_count": 1867,
+          "sections": [
+            "3.2"
+          ]
+        },
+        {
+          "page": 74,
+          "pdf_page": 12,
+          "normalized_character_count": 2737,
+          "sections": [
+            "3.2",
+            "3.3"
+          ]
+        },
+        {
+          "page": 75,
+          "pdf_page": 13,
+          "normalized_character_count": 3550,
+          "sections": [
+            "3.3"
+          ]
+        },
+        {
+          "page": 76,
+          "pdf_page": 14,
+          "normalized_character_count": 2439,
+          "sections": [
+            "3.3"
+          ]
+        },
+        {
+          "page": 77,
+          "pdf_page": 15,
+          "normalized_character_count": 3288,
+          "sections": [
+            "3.3"
+          ]
+        },
+        {
+          "page": 78,
+          "pdf_page": 16,
+          "normalized_character_count": 2795,
+          "sections": [
+            "3.3",
+            "3.4"
+          ]
+        },
+        {
+          "page": 79,
+          "pdf_page": 17,
+          "normalized_character_count": 1862,
+          "sections": [
+            "3.4"
+          ]
+        },
+        {
+          "page": 80,
+          "pdf_page": 18,
+          "normalized_character_count": 570,
+          "sections": [
+            "3.4"
+          ]
+        },
+        {
+          "page": 81,
+          "pdf_page": 19,
+          "normalized_character_count": 2045,
+          "sections": [
+            "3.4",
+            "3.5"
+          ]
+        },
+        {
+          "page": 82,
+          "pdf_page": 20,
+          "normalized_character_count": 2205,
+          "sections": [
+            "3.5"
+          ]
+        },
+        {
+          "page": 83,
+          "pdf_page": 21,
+          "normalized_character_count": 1782,
+          "sections": [
+            "3.5"
+          ]
+        },
+        {
+          "page": 84,
+          "pdf_page": 22,
+          "normalized_character_count": 3070,
+          "sections": [
+            "3.6"
+          ]
+        },
+        {
+          "page": 85,
+          "pdf_page": 23,
+          "normalized_character_count": 3585,
+          "sections": [
+            "3.6"
+          ]
+        },
+        {
+          "page": 86,
+          "pdf_page": 24,
+          "normalized_character_count": 1777,
+          "sections": [
+            "3.6"
+          ]
+        },
+        {
+          "page": 87,
+          "pdf_page": 25,
+          "normalized_character_count": 2193,
+          "sections": [
+            "3.6"
+          ]
+        }
+      ],
+      "normalized_character_count": 62421
+    },
+    {
+      "source_id": "astronomy2e_ch04",
+      "title": "Astronomy 2e — Chapter 4: Earth, Moon, and Sky",
+      "source_path_or_url": "https://www.theexpertta.com/book-files/OpenStaxAstronomy2e/Chapter4_95-134.pdf",
+      "local_path": "data/raw/chapter4.pdf",
+      "official_book_url": "https://openstax.org/details/books/astronomy-2e",
+      "publisher": "OpenStax, Rice University",
+      "edition": "2e",
+      "language": "en",
+      "license_or_permission": "CC BY 4.0 for the matched 2022 PDF snapshot; retain source attribution.",
+      "attribution": "Copyright 2022 Rice University. Access for free at openstax.org.",
+      "downloaded_at": "2026-11-13T09:59:27.900112+00:00",
+      "verified_at": "2026-11-13T09:59:27.968998+00:00",
+      "sha256": "cf01d8ad8abb6dc6fe3156f67eb8cbc2208375642602c75721df250c1c0157f8",
+      "physical_pdf_pages": 40,
+      "selected_printed_pages": [
+        96,
+        125
+      ],
+      "selected_page_count": 30,
+      "page_counting_rule": "Count selected printed pages once. Exclude chapter opening pages and end matter.",
+      "character_count_method": "PyMuPDF extracted text with collapsed whitespace; running headers and footers are still included.",
+      "pages": [
+        {
+          "page": 96,
+          "pdf_page": 2,
+          "normalized_character_count": 2914,
+          "sections": [
+            "4.1"
+          ]
+        },
+        {
+          "page": 97,
+          "pdf_page": 3,
+          "normalized_character_count": 2091,
+          "sections": [
+            "4.1"
+          ]
+        },
+        {
+          "page": 98,
+          "pdf_page": 4,
+          "normalized_character_count": 3071,
+          "sections": [
+            "4.1"
+          ]
+        },
+        {
+          "page": 99,
+          "pdf_page": 5,
+          "normalized_character_count": 2459,
+          "sections": [
+            "4.1",
+            "4.2"
+          ]
+        },
+        {
+          "page": 100,
+          "pdf_page": 6,
+          "normalized_character_count": 1972,
+          "sections": [
+            "4.2"
+          ]
+        },
+        {
+          "page": 101,
+          "pdf_page": 7,
+          "normalized_character_count": 3080,
+          "sections": [
+            "4.2"
+          ]
+        },
+        {
+          "page": 102,
+          "pdf_page": 8,
+          "normalized_character_count": 2254,
+          "sections": [
+            "4.2"
+          ]
+        },
+        {
+          "page": 103,
+          "pdf_page": 9,
+          "normalized_character_count": 3381,
+          "sections": [
+            "4.2"
+          ]
+        },
+        {
+          "page": 104,
+          "pdf_page": 10,
+          "normalized_character_count": 3530,
+          "sections": [
+            "4.2"
+          ]
+        },
+        {
+          "page": 105,
+          "pdf_page": 11,
+          "normalized_character_count": 3288,
+          "sections": [
+            "4.2",
+            "4.3"
+          ]
+        },
+        {
+          "page": 106,
+          "pdf_page": 12,
+          "normalized_character_count": 2311,
+          "sections": [
+            "4.3"
+          ]
+        },
+        {
+          "page": 107,
+          "pdf_page": 13,
+          "normalized_character_count": 4486,
+          "sections": [
+            "4.3"
+          ]
+        },
+        {
+          "page": 108,
+          "pdf_page": 14,
+          "normalized_character_count": 2893,
+          "sections": [
+            "4.3",
+            "4.4"
+          ]
+        },
+        {
+          "page": 109,
+          "pdf_page": 15,
+          "normalized_character_count": 2142,
+          "sections": [
+            "4.4"
+          ]
+        },
+        {
+          "page": 110,
+          "pdf_page": 16,
+          "normalized_character_count": 4027,
+          "sections": [
+            "4.4"
+          ]
+        },
+        {
+          "page": 111,
+          "pdf_page": 17,
+          "normalized_character_count": 2947,
+          "sections": [
+            "4.5"
+          ]
+        },
+        {
+          "page": 112,
+          "pdf_page": 18,
+          "normalized_character_count": 3295,
+          "sections": [
+            "4.5"
+          ]
+        },
+        {
+          "page": 113,
+          "pdf_page": 19,
+          "normalized_character_count": 3933,
+          "sections": [
+            "4.5"
+          ]
+        },
+        {
+          "page": 114,
+          "pdf_page": 20,
+          "normalized_character_count": 1598,
+          "sections": [
+            "4.5"
+          ]
+        },
+        {
+          "page": 115,
+          "pdf_page": 21,
+          "normalized_character_count": 1062,
+          "sections": [
+            "4.5"
+          ]
+        },
+        {
+          "page": 116,
+          "pdf_page": 22,
+          "normalized_character_count": 2865,
+          "sections": [
+            "4.6"
+          ]
+        },
+        {
+          "page": 117,
+          "pdf_page": 23,
+          "normalized_character_count": 1900,
+          "sections": [
+            "4.6"
+          ]
+        },
+        {
+          "page": 118,
+          "pdf_page": 24,
+          "normalized_character_count": 2867,
+          "sections": [
+            "4.6"
+          ]
+        },
+        {
+          "page": 119,
+          "pdf_page": 25,
+          "normalized_character_count": 2635,
+          "sections": [
+            "4.6",
+            "4.7"
+          ]
+        },
+        {
+          "page": 120,
+          "pdf_page": 26,
+          "normalized_character_count": 2055,
+          "sections": [
+            "4.7"
+          ]
+        },
+        {
+          "page": 121,
+          "pdf_page": 27,
+          "normalized_character_count": 3147,
+          "sections": [
+            "4.7"
+          ]
+        },
+        {
+          "page": 122,
+          "pdf_page": 28,
+          "normalized_character_count": 2290,
+          "sections": [
+            "4.7"
+          ]
+        },
+        {
+          "page": 123,
+          "pdf_page": 29,
+          "normalized_character_count": 2796,
+          "sections": [
+            "4.7"
+          ]
+        },
+        {
+          "page": 124,
+          "pdf_page": 30,
+          "normalized_character_count": 3022,
+          "sections": [
+            "4.7"
+          ]
+        },
+        {
+          "page": 125,
+          "pdf_page": 31,
+          "normalized_character_count": 918,
+          "sections": [
+            "4.7"
+          ]
+        }
+      ],
+      "normalized_character_count": 81229
+    }
+  ],
+  "processed_at": "2026-11-13T10:02:30.322149+00:00",
+  "character_count_method": "Normalized body text after running header/footer removal."
+}

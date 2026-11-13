@@ -1,0 +1,6 @@
+torch==2.6.0
+sentence-transformers==3.4.1
+transformers==4.49.0
+chromadb==1.0.20
+PyMuPDF==1.25.5
+numpy==2.2.6
