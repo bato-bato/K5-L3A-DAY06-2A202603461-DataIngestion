@@ -1,0 +1,45 @@
+{
+  "created_at": "2026-11-13T11:29:03.970197+00:00",
+  "benchmark_sha256": "0e3031426120b8412b3fbd924ff38e8665cc9d804393f3529ff22b14172dfeac",
+  "dev_ids": [
+    "Q01",
+    "Q02",
+    "Q03",
+    "Q04",
+    "Q05",
+    "Q06",
+    "Q07",
+    "Q08",
+    "Q09",
+    "Q10",
+    "Q11",
+    "Q12",
+    "Q13",
+    "Q14",
+    "Q15"
+  ],
+  "test_ids": [
+    "Q16",
+    "Q17",
+    "Q18",
+    "Q19",
+    "Q20"
+  ],
+  "filter_ids": [
+    "Q03",
+    "Q12",
+    "Q14",
+    "Q18",
+    "Q19"
+  ],
+  "split_method": "Different textbook sections; related-topic leakage remains possible.",
+  "top_k": 3,
+  "metric": "cosine",
+  "selection_rule": "Prefer dev Evidence Hit@3, then dev Hit@1, then lower ingestion time. Prefer B in an exact B/C tie.",
+  "automatic_scoring": "Exact-quote scores are conservative proxies; accept verified equivalent evidence through human review.",
+  "selection_basis": "Use reviewed evidence metrics if all dev labels are complete; otherwise explicitly record exact-quote proxy selection.",
+  "test_policy": "Freeze the configuration before test retrieval. Do not tune on test results.",
+  "coherence_sample_rule": "First text block of at least 120 characters on each of the first 10 selected source pages; use its midpoint as a shared anchor.",
+  "limitations": "Only five test questions. Coherence sampling covers Chapter 3 only.",
+  "attribution": "Copyright 2022 Rice University, CC BY 4.0. Access for free at openstax.org."
+}

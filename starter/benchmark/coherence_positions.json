@@ -1,0 +1,82 @@
+[
+  {
+    "sample_id": "P01",
+    "document_id": "astronomy2e_ch03",
+    "page": 64,
+    "section": "3.1",
+    "group_anchor_char": 478,
+    "source_paragraph": "At about the time that Galileo was beginning his experiments with falling bodies, the efforts of two other scientists dramatically advanced our understanding of the motions of the planets. These two astronomers were the observer Tycho Brahe and the mathematician Johannes Kepler. Together, they placed the speculations of Copernicus on a sound mathematical basis and paved the way for the work of Isaac Newton in the next century."
+  },
+  {
+    "sample_id": "P02",
+    "document_id": "astronomy2e_ch03",
+    "page": 65,
+    "section": "3.1",
+    "group_anchor_char": 352,
+    "source_paragraph": "given in published tables, which were based on the work of Ptolemy. These data were extremely valuable, but Brahe didn't have the ability to analyze them and develop a better model than what Ptolemy had published. He was further inhibited because he was an extravagant and cantankerous fellow, and he accumulated enemies among government officials. When his patron, Frederick II, died in 1597, Brahe lost his political base and decided to leave Denmark. He took up residence in Prague, where he became court astronomer to Emperor Rudolf of Bohemia. There, in the year before his death, Brahe found a most able young mathematician, Johannes Kepler, to assist him in analyzing his extensive planetary data."
+  },
+  {
+    "sample_id": "P03",
+    "document_id": "astronomy2e_ch03",
+    "page": 66,
+    "section": "3.1",
+    "group_anchor_char": 228,
+    "source_paragraph": "around two tacks pushed through a sheet of paper into a drawing board, so that the string is slack. If we push a pencil against the string, making the string taut, and then slide the pencil against the string all around the tacks, the curve that results is an ellipse. At any point where the pencil may be, the sum of the distances from the pencil to the two tacks is a constant length—the length of the string. The tacks are at the two foci of the ellipse."
+  },
+  {
+    "sample_id": "P04",
+    "document_id": "astronomy2e_ch03",
+    "page": 67,
+    "section": "3.1",
+    "group_anchor_char": 186,
+    "source_paragraph": "so fast. As Mars travels in its elliptical orbit around the Sun, the elastic line sweeps out areas of the ellipse as it moves (the colored regions in our figure). Kepler found that in equal intervals of time (t), the areas swept out in space by this imaginary line are always equal; that is, the area of the region B from 1 to 2 is the same as that of region A from 3 to 4."
+  },
+  {
+    "sample_id": "P05",
+    "document_id": "astronomy2e_ch03",
+    "page": 68,
+    "section": "3.1",
+    "group_anchor_char": 133,
+    "source_paragraph": "Kepler's third law applies to all objects orbiting the Sun, including Earth, and provides a means for calculating their relative distances from the Sun from the time they take to orbit. Let's look at a specific example to illustrate how useful Kepler's third law is."
+  },
+  {
+    "sample_id": "P06",
+    "document_id": "astronomy2e_ch03",
+    "page": 69,
+    "section": "3.1",
+    "group_anchor_char": 183,
+    "source_paragraph": "Applying Kepler's Third Law Using the orbital periods and semimajor axes for Venus and Earth that are provided here, calculate P2 and a3, and verify that they obey Kepler's third law. Venus' orbital period is 0.62 year, and its semimajor axis is 0.72 AU. Earth's orbital period is 1.00 year, and its semimajor axis is 1.00 AU."
+  },
+  {
+    "sample_id": "P07",
+    "document_id": "astronomy2e_ch03",
+    "page": 70,
+    "section": "3.2",
+    "group_anchor_char": 100,
+    "source_paragraph": "Figure 3.6 Isaac Newton (1643–1727), 1689 Portrait by Sir Godfrey Kneller. Isaac Newton's work on the laws of motion, gravity, optics, and mathematics laid the foundations for much of physical science."
+  },
+  {
+    "sample_id": "P08",
+    "document_id": "astronomy2e_ch03",
+    "page": 71,
+    "section": "3.2",
+    "group_anchor_char": 210,
+    "source_paragraph": "moves (zero if it is stationary), (2) the direction of its motion, and (3) its mass—a measure of the amount of matter in a body, which we will discuss later. Scientists use the term velocity to describe the speed and direction of motion. For example, 20 kilometers per hour due south is velocity, whereas 20 kilometers per hour just by itself is speed. Momentum then can be defined as an object's mass times its velocity."
+  },
+  {
+    "sample_id": "P09",
+    "document_id": "astronomy2e_ch03",
+    "page": 72,
+    "section": "3.2",
+    "group_anchor_char": 215,
+    "source_paragraph": "Figure 3.7 Demonstrating Newton's Third Law. The U.S. Space Shuttle (here launching Discovery), powered by three fuel engines burning liquid oxygen and liquid hydrogen, with two solid fuel boosters, demonstrates Newton's third law. (credit: modification of work by NASA)"
+  },
+  {
+    "sample_id": "P10",
+    "document_id": "astronomy2e_ch03",
+    "page": 73,
+    "section": "3.2",
+    "group_anchor_char": 398,
+    "source_paragraph": "You can play with a simple animation (https://openstax.org/l/30phetsimdenmas) demonstrating the relationship between the concepts of density, mass, and volume, and find out why objects like wood float in water."
+  }
+]

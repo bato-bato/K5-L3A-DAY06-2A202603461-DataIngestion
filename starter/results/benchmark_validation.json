@@ -1,0 +1,12 @@
+{
+  "verified_at": "2026-11-13T11:29:03.976350+00:00",
+  "benchmark_sha256": "0e3031426120b8412b3fbd924ff38e8665cc9d804393f3529ff22b14172dfeac",
+  "questions": 20,
+  "splits": {
+    "dev": 15,
+    "test": 5
+  },
+  "filter_questions": 5,
+  "evidence_verified": 20,
+  "retrieval_executed": false
+}
