@@ -14,7 +14,7 @@
       "license_or_permission": "CC BY 4.0 for the matched 2022 PDF snapshot; retain source attribution.",
       "attribution": "Copyright 2022 Rice University. Access for free at openstax.org.",
       "downloaded_at": "2026-11-13T09:59:24.066788+00:00",
-      "verified_at": "2026-11-13T09:59:24.212630+00:00",
+      "verified_at": "2026-11-13T10:13:23.178908+00:00",
       "sha256": "4506336859b6453bb29f31fef02c31edb93654ccdc1e9271621f8b7aeefb2d6c",
       "physical_pdf_pages": 32,
       "selected_printed_pages": [
@@ -236,7 +236,7 @@
       "license_or_permission": "CC BY 4.0 for the matched 2022 PDF snapshot; retain source attribution.",
       "attribution": "Copyright 2022 Rice University. Access for free at openstax.org.",
       "downloaded_at": "2026-11-13T09:59:27.900112+00:00",
-      "verified_at": "2026-11-13T09:59:27.968998+00:00",
+      "verified_at": "2026-11-13T10:13:23.310819+00:00",
       "sha256": "cf01d8ad8abb6dc6fe3156f67eb8cbc2208375642602c75721df250c1c0157f8",
       "physical_pdf_pages": 40,
       "selected_printed_pages": [
@@ -495,6 +495,6 @@
       "normalized_character_count": 81229
     }
   ],
-  "processed_at": "2026-11-13T10:02:30.322149+00:00",
+  "processed_at": "2026-11-13T10:13:23.828360+00:00",
   "character_count_method": "Normalized body text after running header/footer removal."
 }

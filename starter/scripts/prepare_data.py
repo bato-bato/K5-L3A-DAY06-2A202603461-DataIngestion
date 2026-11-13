@@ -6,7 +6,7 @@ import json
 
 import pymupdf
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 
 SOURCES = [
     {
@@ -35,16 +35,7 @@ SOURCES = [
 
 
 def main():
-    folders = [
-        "src",
-        "configs",
-        "benchmark",
-        "data/raw",
-        "data/processed",
-        "results",
-        "artifacts",
-        "report/individual",
-    ]
+    folders = ["data/raw", "data/processed", "results"]
 
     for folder in folders:
         (ROOT / folder).mkdir(parents=True, exist_ok=True)
