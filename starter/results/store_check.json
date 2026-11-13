@@ -1,0 +1,234 @@
+{
+  "at": "2026-11-13T11:23:05.045193+00:00",
+  "metric": "cosine",
+  "search": "exact; no approximate vector index",
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "dimensions": 384,
+  "strategies": {
+    "A": {
+      "chunks": 224,
+      "first_upsert_seconds": 0.18048194299990428,
+      "idempotency_verified": true
+    },
+    "B": {
+      "chunks": 253,
+      "first_upsert_seconds": 0.2433474140002545,
+      "idempotency_verified": true
+    }
+  },
+  "example_retrieval": [
+    {
+      "strategy": "A",
+      "question": "According to Section 4.5, why does the Moon always keep the same face toward Earth?",
+      "filter": null,
+      "hits": [
+        {
+          "rank": 1,
+          "chunk_id": "A_astronomy2e_ch04_p116_s4.6_001_51a4633ae6814926",
+          "text": "another because Earth is not a point, but has a certain size: all parts are not equally distant from the Moon, nor are they all in exactly the same direction from the Moon. Moreover, Earth is not perfectly rigid. As a result, the differences among the forces of the Moon's attraction on different parts of Earth (called differential forces) cause Earth to distort slightly. The side of Earth nearest the Moon is attracted toward the Moon more strongly than is the center of Earth, which in turn is attracted more strongly than is the side opposite the Moon. Thus, the differential forces tend to stretch Earth slightly into an oblate spheroid (which is something like an American football shape), with its long diameter pointed toward the Moon. Figure 4.16 Pull of the Moon. The Moon's differential attraction is shown on different parts of Earth. (Note that the differences have",
+          "score": 0.6316334824780545,
+          "cosine_distance": 0.3683665175219455,
+          "metadata": {
+            "chapter": "4",
+            "section": "4.6",
+            "language": "en",
+            "pdf_page": 22,
+            "strategy": "A",
+            "attribution": "Copyright 2022 Rice University. Access for free at openstax.org.",
+            "token_count": 180,
+            "group_char_end": 1611,
+            "group_char_start": 732,
+            "document_id": "astronomy2e_ch04",
+            "source": "https://www.theexpertta.com/book-files/OpenStaxAstronomy2e/Chapter4_95-134.pdf",
+            "page": 116
+          }
+        },
+        {
+          "rank": 2,
+          "chunk_id": "A_astronomy2e_ch04_p111_s4.5_004_d8a8c2fa2483a314",
+          "text": "every position on Figure 4.14, the Moon is half illuminated and half dark (as a ball in sunlight should be). The difference at each position has to do with what part of the Moon faces Earth.",
+          "score": 0.5901426917229489,
+          "cosine_distance": 0.40985730827705114,
+          "metadata": {
+            "chapter": "4",
+            "section": "4.5",
+            "language": "en",
+            "pdf_page": 17,
+            "strategy": "A",
+            "attribution": "Copyright 2022 Rice University. Access for free at openstax.org.",
+            "token_count": 43,
+            "group_char_end": 2947,
+            "group_char_start": 2757,
+            "document_id": "astronomy2e_ch04",
+            "source": "https://www.theexpertta.com/book-files/OpenStaxAstronomy2e/Chapter4_95-134.pdf",
+            "page": 111
+          }
+        },
+        {
+          "rank": 3,
+          "chunk_id": "A_astronomy2e_ch04_p115_s4.5_000_d00881de876eaa8a",
+          "text": "Figure 4.15 The Moon without and with Rotation. In this figure, we stuck a white arrow into a fixed point on the Moon to keep track of its sides. (a) If the Moon did not rotate as it orbited Earth, it would present all of its sides to our view; hence the white arrow would point directly toward Earth only in the bottom position on the diagram. (b) Actually, the Moon rotates in the same period that it revolves, so we always see the same side (the white arrow keeps pointing to Earth). The differences in the Moon's appearance from one night to the next are due to changing illumination by the Sun, not to its own rotation. You sometimes hear the back side of the Moon (the side we never see) called the \"dark side.\" This is a misunderstanding of the real situation: which side is light and which is",
+          "score": 0.5858935960594667,
+          "cosine_distance": 0.41410640394053333,
+          "metadata": {
+            "chapter": "4",
+            "section": "4.5",
+            "language": "en",
+            "pdf_page": 21,
+            "strategy": "A",
+            "attribution": "Copyright 2022 Rice University. Access for free at openstax.org.",
+            "token_count": 180,
+            "group_char_end": 800,
+            "group_char_start": 0,
+            "document_id": "astronomy2e_ch04",
+            "source": "https://www.theexpertta.com/book-files/OpenStaxAstronomy2e/Chapter4_95-134.pdf",
+            "page": 115
+          }
+        }
+      ]
+    },
+    {
+      "strategy": "B",
+      "question": "According to Section 4.5, why does the Moon always keep the same face toward Earth?",
+      "filter": null,
+      "hits": [
+        {
+          "rank": 1,
+          "chunk_id": "B_astronomy2e_ch04_p115_s4.5_000_0347bb2f7e344653",
+          "text": "Figure 4.15 The Moon without and with Rotation. In this figure, we stuck a white arrow into a fixed point on the Moon to keep track of its sides. (a) If the Moon did not rotate as it orbited Earth, it would present all of its sides to our view; hence the white arrow would point directly toward Earth only in the bottom position on the diagram. (b) Actually, the Moon rotates in the same period that it revolves, so we always see the same side (the white arrow keeps pointing to Earth).",
+          "score": 0.6315369229592738,
+          "cosine_distance": 0.36846307704072623,
+          "metadata": {
+            "chapter": "4",
+            "section": "4.5",
+            "language": "en",
+            "pdf_page": 21,
+            "strategy": "B",
+            "attribution": "Copyright 2022 Rice University. Access for free at openstax.org.",
+            "token_count": 112,
+            "group_char_end": 486,
+            "group_char_start": 0,
+            "document_id": "astronomy2e_ch04",
+            "source": "https://www.theexpertta.com/book-files/OpenStaxAstronomy2e/Chapter4_95-134.pdf",
+            "page": 115
+          }
+        },
+        {
+          "rank": 2,
+          "chunk_id": "B_astronomy2e_ch04_p114_s4.5_002_6b1a8f706ca0a972",
+          "text": "The Moon rotates on its axis in exactly the same time that it takes to revolve about Earth. As a consequence, the Moon always keeps the same face turned toward Earth (Figure 4.15). You can simulate this yourself by \"orbiting\" your roommate or another volunteer. Start by facing your roommate. If you make one rotation (spin) with your shoulders in the exact same time that you revolve around him or her, you will continue to face your roommate during the whole \"orbit.\" As we will see in coming chapters, our Moon is not the only world that exhibits this behavior, which scientists call synchronous rotation.",
+          "score": 0.5973941087722778,
+          "cosine_distance": 0.40260589122772217,
+          "metadata": {
+            "chapter": "4",
+            "section": "4.5",
+            "language": "en",
+            "pdf_page": 20,
+            "strategy": "B",
+            "attribution": "Copyright 2022 Rice University. Access for free at openstax.org.",
+            "token_count": 133,
+            "group_char_end": 1598,
+            "group_char_start": 990,
+            "document_id": "astronomy2e_ch04",
+            "source": "https://www.theexpertta.com/book-files/OpenStaxAstronomy2e/Chapter4_95-134.pdf",
+            "page": 114
+          }
+        },
+        {
+          "rank": 3,
+          "chunk_id": "B_astronomy2e_ch04_p116_s4.6_001_2d17a6f60b30eb00",
+          "text": "The gravitational forces exerted by the Moon at several points on Earth are illustrated in Figure 4.16. These forces differ slightly from one another because Earth is not a point, but has a certain size: all parts are not equally distant from the Moon, nor are they all in exactly the same direction from the Moon. Moreover, Earth is not perfectly rigid. As a result, the differences among the forces of the Moon's attraction on different parts of Earth (called differential forces) cause Earth to distort slightly. The side of Earth nearest the Moon is attracted toward the Moon more strongly than is the center of Earth, which in turn is attracted more strongly than is the side opposite the Moon. Thus, the differential forces tend to stretch Earth slightly into an oblate spheroid (which is something like an American football shape), with its long diameter pointed toward the Moon.",
+          "score": 0.5921882634050699,
+          "cosine_distance": 0.4078117365949301,
+          "metadata": {
+            "chapter": "4",
+            "section": "4.6",
+            "language": "en",
+            "pdf_page": 22,
+            "strategy": "B",
+            "attribution": "Copyright 2022 Rice University. Access for free at openstax.org.",
+            "token_count": 178,
+            "group_char_end": 1476,
+            "group_char_start": 590,
+            "document_id": "astronomy2e_ch04",
+            "source": "https://www.theexpertta.com/book-files/OpenStaxAstronomy2e/Chapter4_95-134.pdf",
+            "page": 116
+          }
+        }
+      ]
+    },
+    {
+      "strategy": "C",
+      "question": "According to Section 4.5, why does the Moon always keep the same face toward Earth?",
+      "filter": {
+        "section": "4.5"
+      },
+      "hits": [
+        {
+          "rank": 1,
+          "chunk_id": "B_astronomy2e_ch04_p115_s4.5_000_0347bb2f7e344653",
+          "text": "Figure 4.15 The Moon without and with Rotation. In this figure, we stuck a white arrow into a fixed point on the Moon to keep track of its sides. (a) If the Moon did not rotate as it orbited Earth, it would present all of its sides to our view; hence the white arrow would point directly toward Earth only in the bottom position on the diagram. (b) Actually, the Moon rotates in the same period that it revolves, so we always see the same side (the white arrow keeps pointing to Earth).",
+          "score": 0.6315369229592738,
+          "cosine_distance": 0.36846307704072623,
+          "metadata": {
+            "chapter": "4",
+            "section": "4.5",
+            "language": "en",
+            "pdf_page": 21,
+            "strategy": "B",
+            "attribution": "Copyright 2022 Rice University. Access for free at openstax.org.",
+            "token_count": 112,
+            "group_char_end": 486,
+            "group_char_start": 0,
+            "document_id": "astronomy2e_ch04",
+            "source": "https://www.theexpertta.com/book-files/OpenStaxAstronomy2e/Chapter4_95-134.pdf",
+            "page": 115
+          }
+        },
+        {
+          "rank": 2,
+          "chunk_id": "B_astronomy2e_ch04_p114_s4.5_002_6b1a8f706ca0a972",
+          "text": "The Moon rotates on its axis in exactly the same time that it takes to revolve about Earth. As a consequence, the Moon always keeps the same face turned toward Earth (Figure 4.15). You can simulate this yourself by \"orbiting\" your roommate or another volunteer. Start by facing your roommate. If you make one rotation (spin) with your shoulders in the exact same time that you revolve around him or her, you will continue to face your roommate during the whole \"orbit.\" As we will see in coming chapters, our Moon is not the only world that exhibits this behavior, which scientists call synchronous rotation.",
+          "score": 0.5973941087722778,
+          "cosine_distance": 0.40260589122772217,
+          "metadata": {
+            "chapter": "4",
+            "section": "4.5",
+            "language": "en",
+            "pdf_page": 20,
+            "strategy": "B",
+            "attribution": "Copyright 2022 Rice University. Access for free at openstax.org.",
+            "token_count": 133,
+            "group_char_end": 1598,
+            "group_char_start": 990,
+            "document_id": "astronomy2e_ch04",
+            "source": "https://www.theexpertta.com/book-files/OpenStaxAstronomy2e/Chapter4_95-134.pdf",
+            "page": 114
+          }
+        },
+        {
+          "rank": 3,
+          "chunk_id": "B_astronomy2e_ch04_p112_s4.5_000_6ceb2b416d8561ed",
+          "text": "Figure 4.14 Phases of the Moon. The appearance of the Moon changes over the course of a complete monthly cycle. The pictures of the Moon on the white circle show the perspective from space, with the Sun off to the right in a fixed position. The outer images show how the Moon appears to you in the sky from each point in the orbit. Imagine yourself standing on Earth, facing the Moon at each stage. In the position \"New,\" for example, you are facing the Moon from the right side of Earth in the middle of the day. (Note that the distance of the Moon from Earth is not to scale in this diagram: the Moon is roughly 30 Earth-diameters away from us.) (credit: modification of work by NASA)",
+          "score": 0.5682739276722722,
+          "cosine_distance": 0.43172607232772775,
+          "metadata": {
+            "chapter": "4",
+            "section": "4.5",
+            "language": "en",
+            "pdf_page": 18,
+            "strategy": "B",
+            "attribution": "Copyright 2022 Rice University. Access for free at openstax.org.",
+            "token_count": 153,
+            "group_char_end": 686,
+            "group_char_start": 0,
+            "document_id": "astronomy2e_ch04",
+            "source": "https://www.theexpertta.com/book-files/OpenStaxAstronomy2e/Chapter4_95-134.pdf",
+            "page": 112
+          }
+        }
+      ]
+    }
+  ]
+}
